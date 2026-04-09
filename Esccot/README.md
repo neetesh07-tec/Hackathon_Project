@@ -102,3 +102,11 @@ This project was collaboratively developed with contributions from:
 
 
 *Made with ❤️ for the farming community.*
+
+## 👥 Team Contributions
+
+This project was collaboratively developed with contributions from:
+
+- **Neetesh  Dhakad** – Responsible for backend development and server-side logic  
+- **** – Responsible for frontend development and user interface design  
+- **Nitin Bhagat** – Responsible for bug identification, testing, and quality assurance
