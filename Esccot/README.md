@@ -90,14 +90,15 @@ The **Esccot** recommendation engine follows these steps:
 2. **Step 2**: Select the **Crop** you are planting (Wheat, Rice, etc.).
 3. **Step 3**: Enter your **Land Area** in acres and your **City Name**.
 4. **Step 4**: Click **Check Recommendation** to receive your personalized **Field Report**.
-5. **Step 5**: Follow the **Tips for Best Results** for a healthy and high-yield harvest.
+5. **Step 5**: Follow the **Tips for Best Results** for a healthy and high-yi## 👥 Team Contributions
+
+This project was collaboratively developed with contributions from:
+
+- **Nettyesh** – Responsible for backend development and server-side logic  
+- **abhay tomar** – Responsible for frontend development and user interface design  
+- **nitin bhagat** – Responsible for bug identification, testing, and quality assuranceeld harvest.
 
 ---
 
-## 🛡️ License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
----
 
 *Made with ❤️ for the farming community.*
