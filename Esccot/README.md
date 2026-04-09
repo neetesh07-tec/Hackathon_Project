@@ -99,6 +99,6 @@ The **Esccot** recommendation engine follows these steps:
 
 This project was collaboratively developed with contributions from:
 
-- **Neetesh  Dhakad** – Responsible for backend development and server-side logic  
+- **Neetesh Dhakad** – Responsible for backend development and server-side logic  
 - **Abhay tomar** – Responsible for frontend development and user interface design  
 - **Nitin Bhagat** – Responsible for bug identification, testing, and quality assurance

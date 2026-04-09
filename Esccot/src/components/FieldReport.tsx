@@ -106,18 +106,6 @@ const FieldReport = ({ data }: Props) => (
         <p className="text-xs text-muted-foreground mt-3 italic">⚠️ Weather conditions may affect fertilizer efficiency</p>
       </Card>
 
-      {/* Why */}
-      <Card icon={Brain} title="Why This Recommendation?" iconBg="bg-leaf-light text-primary">
-        <ul className="space-y-2">
-          {data.reasons.map((r, i) => (
-            <li key={i} className="flex items-start gap-2 text-sm">
-              <span className="text-leaf mt-0.5">•</span>
-              <span>{r}</span>
-            </li>
-          ))}
-        </ul>
-      </Card>
-
       {/* Sustainability */}
       <Card icon={ShieldCheck} title="Soil Safety Level" iconBg="bg-leaf-light text-leaf">
         <SustainabilityBar score={data.safetyLevel} />

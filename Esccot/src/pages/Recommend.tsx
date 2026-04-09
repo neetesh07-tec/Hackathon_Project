@@ -5,7 +5,9 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import FieldReport from "@/components/FieldReport";
+import CropInsights from "@/components/CropInsights";
 import { getWeather } from "@/utils/weather";
+import { cropTypes, cropNutrientData } from "@/data/crops";
 
 const soilTypes = [
   { label: "Black", value: "black" },
@@ -15,28 +17,12 @@ const soilTypes = [
   { label: "Alluvial", value: "alluvial" },
 ];
 
-const cropTypes = [
-  { label: "Wheat", value: "wheat" },
-  { label: "Rice", value: "rice" },
-  { label: "Maize", value: "maize" },
-  { label: "Soybean", value: "soybean" },
-  { label: "Cotton", value: "cotton" },
-];
-
 const soilData: Record<string, any> = {
   black: { nVal: 60, pVal: 40, kVal: 50, score: 75 },
   red: { nVal: 30, pVal: 20, kVal: 40, score: 60 },
   sandy: { nVal: 25, pVal: 35, kVal: 20, score: 55 },
   clay: { nVal: 55, pVal: 60, kVal: 65, score: 70 },
   alluvial: { nVal: 70, pVal: 75, kVal: 80, score: 85 },
-};
-
-const cropData: Record<string, any> = {
-  wheat: { nReq: 120, pReq: 60, kReq: 40 },
-  rice: { nReq: 100, pReq: 50, kReq: 50 },
-  maize: { nReq: 180, pReq: 80, kReq: 60 },
-  soybean: { nReq: 30, pReq: 80, kReq: 60 },
-  cotton: { nReq: 100, pReq: 50, kReq: 80 },
 };
 
 export interface RecommendationData {
@@ -58,7 +44,7 @@ const getStatus = (deficit: number) => {
 
 const getRecommendation = ({ soilType, cropType, area, weather }: any): RecommendationData => {
   const sData = soilData[soilType];
-  const cData = cropData[cropType];
+  const cData = cropNutrientData[cropType];
   const acres = parseFloat(area) || 1;
 
   // Deficit Calculation
@@ -237,10 +223,11 @@ const Recommend = () => {
       </div>
 
       {result && (
-        <div className="container max-w-2xl mt-10">
-          <FieldReport data={result} />
-        </div>
-      )}
+          <div className="container max-w-2xl mt-10 space-y-8">
+            <FieldReport data={result} />
+            <CropInsights cropValue={crop} reasons={result.reasons} />
+          </div>
+        )}
     </div>
   );
 };
