@@ -1,6 +1,5 @@
 import { Link, useLocation } from "react-router-dom";
 import { Sprout } from "lucide-react";
-import logo from "@/assets/agrismart-logo.png";
 
 const Navbar = () => {
   const location = useLocation();
@@ -9,7 +8,7 @@ const Navbar = () => {
     <nav className="border-b border-border bg-card/80 backdrop-blur-sm sticky top-0 z-50">
       <div className="container flex items-center justify-between h-16">
         <Link to="/" className="flex items-center gap-2">
-          <img src={logo} alt="Esccot" className="h-10 w-10 rounded-lg" />
+          <Sprout className="h-8 w-8 text-primary" />
           <div className="leading-tight">
             <span className="font-heading font-bold text-primary text-lg">Esccot</span>
             <span className="block text-[10px] text-muted-foreground leading-none">Fertilizer Recommendations</span>
