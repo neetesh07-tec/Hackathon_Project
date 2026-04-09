@@ -92,14 +92,6 @@ The **Esccot** recommendation engine follows these steps:
 4. **Step 4**: Click **Check Recommendation** to receive your personalized **Field Report**.
 5. **Step 5**: Follow the **Tips for Best Results** for a healthy and high-yi## 👥 Team Contributions
 
-This project was collaboratively developed with contributions from:
-
-- **Nettyesh** – Responsible for backend development and server-side logic  
-- **abhay tomar** – Responsible for frontend development and user interface design  
-- **nitin bhagat** – Responsible for bug identification, testing, and quality assuranceeld harvest.
-
----
-
 
 *Made with ❤️ for the farming community.*
 
@@ -108,5 +100,5 @@ This project was collaboratively developed with contributions from:
 This project was collaboratively developed with contributions from:
 
 - **Neetesh  Dhakad** – Responsible for backend development and server-side logic  
-- **** – Responsible for frontend development and user interface design  
+- **Abhay tomar** – Responsible for frontend development and user interface design  
 - **Nitin Bhagat** – Responsible for bug identification, testing, and quality assurance
