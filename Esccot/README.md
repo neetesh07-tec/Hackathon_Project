@@ -1,6 +1,6 @@
-# AgriSmart Field Helper 🌾
+# Esccot Field Helper 🌾
 
-AgriSmart Field Helper is a modern, data-driven application designed to empower farmers with precise, weather-aware fertilizer recommendations. By combining soil data, crop requirements, and real-time weather conditions, the app provides a practical and sustainable fertilizer plan tailored to the farmer's specific land area.
+Esccot Field Helper is a modern, data-driven application designed to empower farmers with precise, weather-aware fertilizer recommendations. By combining soil data, crop requirements, and real-time weather conditions, the app provides a practical and sustainable fertilizer plan tailored to the farmer's specific land area.
 
 ---
 
@@ -49,7 +49,7 @@ src/
 1. **Clone the Repository**:
    ```bash
    git clone <repository-url>
-   cd agri-smart-field-helper
+   cd esccot-field-helper
    ```
 
 2. **Install Dependencies**:
@@ -71,7 +71,7 @@ src/
 
 ## 🧪 How It Works (The Algorithm)
 
-The **AgriSmart** recommendation engine follows these steps:
+The **Esccot** recommendation engine follows these steps:
 
 1. **Input Collection**: Gathers Soil Type, Crop Type, Land Area, and Location.
 2. **Nutrient Deficit**: Subtracts current soil nutrient values (from `soilData`) from the target crop requirements (from `cropData`).
