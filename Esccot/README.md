@@ -1,20 +1,20 @@
-# Esccot Field Helper 🌾
+# Esccot Field Helper... 🌾
 
 Esccot Field Helper is a modern, data-driven application designed to empower farmers with precise, weather-aware fertilizer recommendations. By combining soil data, crop requirements, and real-time weather conditions, the app provides a practical and sustainable fertilizer plan tailored to the farmer's specific land area.
 
 ---
 
-## 🌟 Key Features
+## 🌟 Key Features...
 
 - **Smart Fertilizer Recommendations**: Uses an agricultural-standard logic to suggest Urea, DAP, or NPK Mix based on nutrient deficits (N-P-K).
 - **Real-Time Weather Integration**: Connects to [WeatherAPI.com](https://www.weatherapi.com/) to fetch current temperature and rainfall data, automatically adjusting nutrient doses if heavy rain is detected.
-- **Farmer-Friendly UI**: Replaces technical jargon with easy-to-understand labels like **"Soil Safety Level"** and provides clear quantities for both **per-acre** and **total field** needs.
+- **Farmer-Friendly UI**: Replaces technical jargon with easy-to-understand labels like **"Soil Safety Level"** and provides clear quantities for both **per-acre** and **Total field** needs.
 - **Sustainability Focused**: Includes a **Soil Safety Level** (Safe, Moderate, or Risky) to help farmers protect long-term soil health and improve yields.
 - **Detailed Insights**: The "Why This Recommendation?" section breaks down the specific nutrient units needed for Nitrogen, Phosphorus, and Potassium.
 
 ---
 
-## 🛠️ Technical Stack
+## 🛠️ Technical Stack...
 
 - **Frontend**: [React](https://react.dev/) + [Vite](https://vitejs.dev/)
 - **Language**: [TypeScript](https://www.typescriptlang.org/)
@@ -26,7 +26,7 @@ Esccot Field Helper is a modern, data-driven application designed to empower far
 
 ---
 
-## 📂 Project Structure
+## 📂 Project Structure...
 
 ```bash
 src/
@@ -44,7 +44,7 @@ src/
 
 ---
 
-## ⚙️ Installation & Setup
+## ⚙️ Installation & Setup...
 
 1. **Clone the Repository**:
    ```bash
@@ -69,7 +69,7 @@ src/
 
 ---
 
-## 🧪 How It Works (The Algorithm)
+## 🧪 How It Works (The Algorithm)...
 
 The **Esccot** recommendation engine follows these steps:
 
@@ -84,7 +84,7 @@ The **Esccot** recommendation engine follows these steps:
 
 ---
 
-## 📈 Usage for Farmers
+## 📈 Usage for Farmers...
 
 1. **Step 1**: Choose your **Soil Type** (Black, Red, Sandy, etc.).
 2. **Step 2**: Select the **Crop** you are planting (Wheat, Rice, etc.).
@@ -94,11 +94,11 @@ The **Esccot** recommendation engine follows these steps:
 
 This project was collaboratively developed with contributions from:
 
-- **Nettyesh** – Responsible for backend development and server-side logic  
+- **Neetesh dhakad** – Responsible for backend development and server-side logic  
 - **abhay tomar** – Responsible for frontend development and user interface design  
 - **nitin bhagat** – Responsible for bug identification, testing, and quality assuranceeld harvest.
 
 ---
 
 
-*Made with ❤️ for the farming community.*
+*Made with ❤️ for the farming community....*
